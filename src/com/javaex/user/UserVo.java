@@ -101,7 +101,7 @@ public class UserVo {
 	   @Override
 	   public String toString() {
 			return String.format(
-			        "유저번호: %-5d 아이디: %-20s 비밀번호: %-15s 이름: %-20s 전화번호: %-10s 이메일: %d",
+			        "유저번호: %-5d 아이디: %-20s 비밀번호: %-15s 이름: %-20s 전화번호: %-10s 이메일: %s",
 			        userNum, userId, password, userName, phoneNum, email
 			    );
 

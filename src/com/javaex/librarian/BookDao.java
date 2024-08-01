@@ -154,8 +154,8 @@ public class BookDao {
 			String query = "";
 			query += " update book ";
 			query += " set title = ?, ";
-			query += "     author = ? ";
-			query += "     pubs = ? ";
+			query += "     author = ?, ";
+			query += "     pubs = ?, ";
 			query += "     pubs_date = ? ";
 			query += " where book_id = ? ";
 
